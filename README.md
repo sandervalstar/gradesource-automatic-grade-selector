@@ -17,7 +17,7 @@ You should now be at the screen where you used to manually enter your grades.
 
 5. Replace the keys and values of "gradeSelectMap" in auto-select-grades.js with the keys and values you noted down. 
 
-6. Next, you'll need to add your students' grades to the "grades" variable in auto-select-grades.js. 
+6. Next, you'll need to add your students' grades to the "grades" variable in auto-select-grades.js. Make sure their student ID matches the ID in the "Identification" column on gradesource. 
 (If your data is in a spreadsheet, save it as a CSV file in the "data" directory and use "main.py" in "csv_to_json" to convert it to the appropriate json format. Make sure to read the "NOTE" comments in main.py) 
 
 7. Now copy the entire contents of auto-select-grades.js > Go to the gradesource page with the grade selectors > Right click > Click inspect > Click the "Console" tab in the inspection window > Paste the contents of auto-select-grades.js > Hit enter
