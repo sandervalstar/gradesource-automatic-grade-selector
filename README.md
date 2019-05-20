@@ -1,6 +1,6 @@
 # Gradesource automatic grade selector
 
-This is a tool that will prevent you from having to manually select a grade for each student in your class on gradesource.
+This is a tool that will help you automatically upload grades to gradesource and prevent you from having to manually select a grade for each student in your class.
 
 There are a few steps involved:
 
