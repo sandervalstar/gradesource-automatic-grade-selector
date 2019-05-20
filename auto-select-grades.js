@@ -26,11 +26,12 @@ for (var student in grades) {
     studentRow = matchingElements.iterateNext();
     studentRow = matchingElements.iterateNext();
     studentRow = matchingElements.iterateNext();
-    var studentGradeSelector = studentRow.lastElementChild.firstElementChild;
-
-    var studentGrade = grades[student];
-
-    console.log(studentGradeSelector, studentGrade);
-
-    studentGradeSelector.value = gradeSelectMap[studentGrade];
+    
+    if (studentRow) {
+        var studentGradeSelector = studentRow.lastElementChild.firstElementChild;
+        var studentGrade = grades[student];
+        studentGradeSelector.value = gradeSelectMap[studentGrade];
+    } else {
+        console.warn("Couldn't find row for student:", student)
+    }
 }
